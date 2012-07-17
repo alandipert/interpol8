@@ -17,7 +17,7 @@ Then, in the namespace you want string interpolation in:
 
 ```clojure
 (ns your-ns
-  (:use [mathemagician :only (interpolating)]))
+  (:use [interpol8 :only (interpolating)]))
 
 (interpolating
   (def foo 10)
