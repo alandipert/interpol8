@@ -3,6 +3,8 @@
 `interpol8` is a small library for doing Ruby-style string
 interpolation.
 
+[![Build Status](https://secure.travis-ci.org/alandipert/interpol8.png?branch=master)](http://travis-ci.org/alandipert/interpol8)
+
 ## Usage
 
 Add this to your `project.clj` if you're using [Leiningen](https://github.com/technomancy/leiningen/):
