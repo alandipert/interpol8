@@ -10,7 +10,7 @@ interpolation.
 Add this to your `project.clj` if you're using [Leiningen](https://github.com/technomancy/leiningen/):
 
 ```clojure
-[alandipert/interpol8 "0.0.1"]
+[alandipert/interpol8 "0.0.2"]
 ```
 
 Then, in the namespace you want string interpolation in:
