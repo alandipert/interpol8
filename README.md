@@ -10,14 +10,14 @@ interpolation.
 Add this to your `project.clj` if you're using [Leiningen](https://github.com/technomancy/leiningen/):
 
 ```clojure
-[alandipert/interpol8 "0.0.2"]
+[alandipert/interpol8 "0.0.3"]
 ```
 
 Then, in the namespace you want string interpolation in:
 
 ```clojure
 (ns your-ns
-  (:use [interpol8 :only (interpolating)]))
+  (:use [alandipert.interpol8 :only (interpolating)]))
 
 (interpolating
   (def foo 10)

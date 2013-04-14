@@ -1,6 +1,6 @@
-(ns interpol8.test
+(ns alandipert.interpol8.test
   (:use clojure.test
-        interpol8))
+        alandipert.interpol8))
 
 (deftest lexical-interpolation
   (testing "that let bindings interpolate correctly")

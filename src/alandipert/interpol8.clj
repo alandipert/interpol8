@@ -1,4 +1,4 @@
-(ns interpol8
+(ns alandipert.interpol8
   "Ruby-style string interpolation"
   (:use [clojure.walk :only (postwalk)])
   (:require [clojure.string :as string]))
